@@ -26,9 +26,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # bundle react rails
 gem 'react-rails', '~> 1.0'
 
-# gem for babel
+# for babel
 gem 'sprockets'
 gem 'sprockets-es6'
+
+# for bower use with rails
+gem "bower-rails", "~> 0.10.0"
+
+# adding bootstrap
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'autoprefixer-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
